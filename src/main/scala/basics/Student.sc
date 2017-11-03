@@ -1,5 +1,5 @@
 import scala.beans.BeanProperty
 
-class Student (@BeanProperty id : Long, @BeanProperty name : String){
+class Student (@BeanProperty var id : Long, @BeanProperty var name : String){
 
 }
